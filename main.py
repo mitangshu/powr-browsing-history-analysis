@@ -19,7 +19,9 @@ warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = (12, 8)
 
 class BrowsingDataAnalyzer:
-
+    """
+    Class Wrapper along with required utility functions to Analyze browsing data
+    """
     def __init__(self, file_path):
         """Initialize the analyzer with data file path"""
         self.file_path = file_path
