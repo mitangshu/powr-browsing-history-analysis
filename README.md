@@ -154,30 +154,22 @@ The analysis includes the following components:
 
 ### 3. Visualizations Created
 1. **Top Domains Bar Chart** - Most visited websites
+   
+   ![Top Domains Bar Chart](https://github.com/mitangshu/powr-browsing-history-analysis/blob/main/images/10MostVisitedDomains.png?raw=true)
 2. **Hourly Activity Line Plot** - Browsing patterns by hour
+   
+     ![Hourly Activity Line Plot](https://github.com/mitangshu/powr-browsing-history-analysis/blob/main/images/BrowsingActivityByHour.png?raw=true)  
 3. **Category Pie Chart** - Website category distribution
+
+   ![Category Pie Chart](https://github.com/mitangshu/powr-browsing-history-analysis/blob/main/images/BrowsingActivitybyWebsiteCategory.png?raw=true)
 4. **Daily Activity Heatmap** - Activity intensity over time
+
+   ![Daily Activity Heatmap](https://github.com/mitangshu/powr-browsing-history-analysis/blob/main/images/DailyBrowsingActivityHeatmap(Last_14Days).png?raw=true)
 5. **Session Length Distribution** - Histogram and box plot analysis
 
-### 4. Insights & Recommendations
-- Key behavioral patterns identified
-- Actionable recommendations provided
-- Executive summary for stakeholders
-- Business implications highlighted
+   ![Session Length Distribution](https://github.com/mitangshu/powr-browsing-history-analysis/blob/main/images/SessionLengthBoxPlot.png?raw=true)
 
-## 📄 File Descriptions
-
-### Core Files
-- **`main.py`**: Complete analysis script with BrowsingDataAnalyzer class
-- **`main.ipynb`**: Jupyter notebook for initial exploration and rough work
-- **`dataset/py_demo_client_extension_30_20250221075805in.csv`**: Raw browsing history data
-
-### Generated Output Files
-- **`cleaned_browsing_data.csv`**: Processed and cleaned dataset
-- **`powerbi_*.csv`**: Summary tables for Power BI dashboard creation
-- **`executive_summary.md`**: Business-focused summary of findings
-
-## Key Metrics:
+#### Key Metrics:
 - Total browsing records: 5,099
 - Unique domains visited: 409
 - Analysis period: 31 days
@@ -188,10 +180,8 @@ The analysis includes the following components:
 - Most visited site: google.com (26.0% of total visits)
 - Average session length: 19.1 page views
 
-## Key Findings:
+#### Key Findings:
 - **High Search Activity**: 26% of browsing time spent on Google searches
 - **Professional Focus**: Strong usage of freelancing platforms (Upwork, Wellfound)
 - **Work-Focused Timing**: Peak activity during business hours (9-11 AM)
 - **Diverse Interests**: Balanced usage across multiple categories
-
-
