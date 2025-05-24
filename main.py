@@ -1,6 +1,3 @@
-# Browsing History Data Analysis - Powr of You Assignment
-# Comprehensive analysis of user browsing patterns with visualizations
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,10 +19,7 @@ warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = (12, 8)
 
 class BrowsingDataAnalyzer:
-    """
-    A comprehensive class for analyzing browsing history data
-    """
-    
+
     def __init__(self, file_path):
         """Initialize the analyzer with data file path"""
         self.file_path = file_path
