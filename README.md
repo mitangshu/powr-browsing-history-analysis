@@ -50,7 +50,7 @@ browsing-history-analysis/
 ### 1. Clone or Download the Project
 ```bash
 # If using git
-git clone <your-repository-url>
+git clone https://github.com/mitangshu/powr-browsing-history-analysis.git
 cd powr-browsing-history-analysis
 
 # Or download and extract the project files
